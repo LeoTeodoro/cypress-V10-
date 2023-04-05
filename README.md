@@ -24,7 +24,7 @@ on('file:preprocessor', cucumber())
 <!-- prettier-ignore -->
 specPattern: "cypress/e2e/*.feature"
 
-STEP 6: add in package.js
+STEP 6: add in package.json
 "cypress-cucumber-preprocessor": {
 "nonGlobalStepDefinitions": true,
 "step_definitions": "cypress/e2e"
