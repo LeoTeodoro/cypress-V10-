@@ -14,8 +14,9 @@ STEP 4: npx cypress open
 
 STEP 5: add comands in cypress.congig.js
 
-const cucumber =
-require('cypress-cucumber-preprocessor').default
+const cucumber = require('cypress-cucumber-preprocessor').default
+
+STEP 5.1: add in e2e
 
 setupNodeEvents(on, config) {
 on('file:preprocessor', cucumber())
