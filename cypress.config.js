@@ -8,4 +8,6 @@ module.exports = defineConfig({
     },
     specPattern: "cypress/e2e/*.feature",
   },
+  viewportWidth: 1366,
+  viewportHeight: 768,
 });

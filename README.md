@@ -31,6 +31,18 @@ STEP 6: add in package.json
 "step_definitions": "cypress/e2e"
 }
 
+<!-- api tests -->
+
+STEP 1: Install this package:
+npm i cypress-plugin-api
+or
+yarn add cypress-plugin-api
+
+STEP 2: Add this line to your cypress/support/index.js file:
+import 'cypress-plugin-api'
+
+<!-- end api test -->
+
 STEP 7: create folder in e2e and the files .feature with the same name, for the step definitions and gherkin comands
 
 STEP 8: create folder in support and the files .js for the cy comands
