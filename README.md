@@ -1,10 +1,12 @@
-# cypress-V10-
+# cypress-V10+
 
 learning cypress V10+
 
 Comands:
-STEP 1: npm init
+STEP 0: npm init (optional)
 provide package details
+
+STEP 1: npm install
 
 STEP 2: npm install cypress --save-dev
 
