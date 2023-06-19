@@ -14,7 +14,7 @@ STEP 3: npm install --save-dev cypress-cucumber-preprocessor
 
 STEP 4: npx cypress open
 
-STEP 5: add comands in cypress.congig.js
+STEP 5: add comands in cypress.config.js
 
 const cucumber = require('cypress-cucumber-preprocessor').default
 
